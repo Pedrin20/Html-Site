@@ -7,11 +7,17 @@ img {
     margin-right: auto;
 }
 .entrar {
+    display: flex;
+    align-items: center;
     background-color: aliceblue;
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 50px;
     width: 200px;
     height: 150px;
-    margin-left: 42%;
+    margin: auto;
+}
 
+.botao {
+    color: black;
+    text-decoration: none;
 }
