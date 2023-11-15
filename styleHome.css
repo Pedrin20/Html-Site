@@ -11,6 +11,7 @@
 body {
     min-height: 100vh;
     background-color: #EAF4EB;
+    overflow: hidden;
 }
 
 .header {
@@ -82,4 +83,28 @@ body {
 }
 .dropdown:hover .conteudo{
     display: block;
+}
+
+.headersub {
+    position: relative;
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: #045929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.headersub a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.inputsearch {
+    height: 100%;
 }
