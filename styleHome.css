@@ -8,9 +8,10 @@
    /* COLOCA A FONTE NO SITE INTEIRO ALEM DE INCLUIR O PADDING E O BORDER NO TAMANHO DAS CAIXAS */
 }
 
-body {
+
+.body2 {
     min-height: 100vh;
-    background-color: #EAF4EB;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -108,3 +109,10 @@ body {
 .inputsearch {
     height: 100%;
 }
+
+.row {
+    color: black;
+}
+
+
+
