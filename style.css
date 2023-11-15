@@ -1,23 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: darkseagreen;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.container {
+    width: 100%;
+}
+
 .entrar {
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-color: aliceblue;
     border-radius: 10px;
     padding: 50px;
-    width: 200px;
-    height: 150px;
+    width:  30%;
+    height: auto;
     margin: auto;
 }
 
-.botao {
-    color: black;
-    text-decoration: none;
+.entrar h1 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botoes button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.botao_entrar {
+    background-color: #0da64f;
+
 }
