@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   /* COLOCA A FONTE NO SITE INTEIRO ALEM DE INCLUIR O PADDING E O BORDER NO TAMANHO DAS CAIXAS */
+}
+.col-md-3 img{
+    height: 300px;
+    width: 200px;
+}
+
+.body2 {
+    min-height: 100vh;
+    background-color: white;
+    overflow: auto;
+}
+
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+.bookflix {
+    width: 100px;
+    height: 30px;
+}
+
+.header {
+    background-color: #072612;
+}
+
+.headersub {
+    position: relative;
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: #045929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.headersub a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.inputsearch {
+    height: 100%;
+}
+
+.row {
+    color: black;
+}
+
+.BookflixminiSL {
+    width: 80px;
+    height: 30px;
+}
