@@ -25,23 +25,25 @@
                     <a class="nav-link active text-white" aria-current="page" href="home.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Novos & Populares</a>
+                    <a class="nav-link text-white" href="novosPopulares.html">Novos & Populares</a>
+                  </li>                  <li class="nav-item">
+                    <a class="nav-link text-white" href="meuslivros.html">Meus Livros</a>
                   </li>
                   <li class="nav-item dropdown">
                       <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         Catergorias
                       </button>
                     </a>
-                    <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white" href="#">Livros</a></li>
+                    <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-black" href="#">Livros</a></li>
                       <li><hr class="dropdown-divider text-white"></li>
-                      <li><a class="dropdown-item text-white" href="#">Administração e Negócios</a></li>
-                      <li><a class="dropdown-item text-white" href="#">HQ's e Mangás</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Medicina</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Direito</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Ciências Exatas/Engenharia e tecnologia</a></li>
-                      <li><hr class="dropdown-divider text-white"></li>
-                      <li><a class="dropdown-item text-white" href="index.html">Ver mais...</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Administração e Negócios</a></li>
+                      <li><a class="dropdown-item text-black" href="#">HQ's e Mangás</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Medicina</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Direito</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Ciências Exatas/Engenharia e tecnologia</a></li>
+                      <li><hr class="dropdown-divider text-black"></li>
+                      <li><a class="dropdown-item text-black" href="index.html">Ver mais...</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -53,14 +55,14 @@
                 <ul class="navbar-nav  mb-5 mb-lg-0 ms-2">
                   <li class="nav-item">
                     <div class="btn-group dropstart">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="img/profileIcon.png" alt="">
                         </a>
-                      <ul class="dropdown-menu bg-success ">
-                        <li><a class="dropdown-item text-white" href="#">Configurações</a></li>
-                        <li><a class="dropdown-item text-white" href="#">Menu</a></li>
-                        <li><hr class="dropdown-divider text-white"></li>
-                        <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
+                        <ul class="dropdown-menu bg-white ">
+                          <li><a class="dropdown-item text-black" href="settings.html">Configurações</a></li>
+                          <li><a class="dropdown-item text-black" href="#">Menu</a></li>
+                          <li><hr class="dropdown-divider text-black"></li>
+                          <li><a class="dropdown-item text-black" href="index.html">Logout</a></li>
                       </ul>
                     </div>
                   </li>
@@ -80,7 +82,7 @@
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/tema12.png" class="d-block w-100" alt="...">
+          <img src="img/tema1.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img src="img/tema2.png" class="d-block w-100" alt="...">
@@ -98,11 +100,56 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <br>
+    <br> <br>
     <div class="container">
-        <h3>
-            Mais vendidos
-        </h3>
+      <h3>Continue de onde parou:</h3>
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="livro.html"><img src="img/JavaComoProgramar.png" class="cardimglink" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Java: Como Programar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/DesignThinking.jpg" class="cardimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Design Thinking</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/ComoFazerAmigos.jpg" class="cardimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Como fazer amigos e influenciar pessoas</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/OPoderDoHabito.jpg" class="cardimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">O Poder do Hábito</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/atomic_design.jpg" class="cardimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Design Atômico</h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  </div>
+  <br><br>
+    <div class="container">
+        <h3>Recomendados:</h3>
         <div class="row row-cols-1 row-cols-md-5 g-4">
           <div class="col">
             <div class="card">
@@ -136,6 +183,14 @@
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/AmorESorte.jpg" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Amor e Sorte</h5>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
     <br>
@@ -145,7 +200,7 @@
         </div>
         <br>
         <div>
-            <h3>I Love HQ's</h3>
+            <h3>As melhores HQ's</h3>
             <div class="row row-cols-1 row-cols-md-5 g-5">
               <div class="col">
                 <div class="card">
@@ -183,7 +238,7 @@
                 <div class="card">
                   <img src="img/Vingadores.jpg" class="cardimg" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Flashpoint</h5>                   
+                    <h5 class="card-title">JLA/Avengers</h5>                   
                   </div>
                 </div>
               </div>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,35 +6,213 @@
     <title>Bookflix</title>
     <link rel="stylesheet" href="styleHome.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
-<body>
+<body class="body2">
 
     <header class="header">
-        <a href="home.html" class="logo" alt="Bookflix"><img  class="bookflix" src="img/Bookflix.png" alt=""></a>
-
-        <nav class="navbar">
-            <a href="home.html">Inicio</a>
-            <a href="novosPopulares.html">Novos & Populares</a>
-            <a href="meuslivros.html">Meus Livros</a>
-            <a href="#">Categorias</a>
-            <a href=""><i class='bx bx-search-alt-2'></i></a>
-            <div class="dropdown">
-                <a class="icon-user"href=""><i class='bx bxs-user' ></i></a>
-                <div class="conteudo">
-                    <a href="#">Assinatura</a>
-                    <a href="configuracoes.html">Configurações</a>
-                    <a href="index.html">Sair</a>
+        <nav class="navbar navbar-expand-lg cor1">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"><img class="BookflixminiSL" src="img/BookflixBranco.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="home.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="novosPopulares.html">Novos & Populares</a>
+                  </li>                  <li class="nav-item">
+                    <a class="nav-link text-white" href="meuslivros.html">Meus Livros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catergorias
+                      </button>
+                    </a>
+                    <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-black" href="#">Livros</a></li>
+                        <li><hr class="dropdown-divider text-white"></li>
+                        <li><a class="dropdown-item text-black" href="#">Administração e Negócios</a></li>
+                        <li><a class="dropdown-item text-black" href="#">HQ's e Mangás</a></li>
+                        <li><a class="dropdown-item text-black" href="#">Medicina</a></li>
+                        <li><a class="dropdown-item text-black" href="#">Direito</a></li>
+                        <li><a class="dropdown-item text-black" href="#">Ciências Exatas/Engenharia e tecnologia</a></li>
+                        <li><hr class="dropdown-divider text-black"></li>
+                        <li><a class="dropdown-item text-black" href="index.html">Ver mais...</a></li>
+                      </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Procure um livro" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Procurar</button>
+                </form>
+                <div>
+                <ul class="navbar-nav  mb-5 mb-lg-0 ms-2">
+                  <li class="nav-item">
+                    <div class="btn-group dropstart">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="img/profileIcon.png" alt="Icone de perfil">
+                            </a>
+                          <ul class="dropdown-menu bg-white">
+                            <li><a class="dropdown-item text-black" href="">Configurações</a></li>
+                            <li><a class="dropdown-item text-black" href="#">Menu</a></li>
+                            <li><hr class="dropdown-divider text-black"></li>
+                            <li><a class="dropdown-item text-black" href="index.html">Logout</a></li>
+                      </ul>
+                    </div>
+                  </li>
                 </div>
+                <i class="bi bi-basket-fill"></i>
+              </div>    
             </div>
-        </nav>
+          </nav>
     </header>
-    <br><br><br>
+    
+    
     <div class="navsub">
         <header class="headersub">
                     <a href="#">Novos & Populares</a>
         </header>
     </div>
 
-    
+    <br>
+    <div class="container">
+        <h3>
+            Lançamentos do ano:
+        </h3>
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col">
+            <div class="card">
+              <a href="#"><img src="img/coisasquenuncasuperamos.png" class="cardimglink" alt="Livro Coisas que nunca superamos"></a>
+              <div class="card-body">
+                <h5 class="card-title">Coisas que nunca superamos</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/matchPerfeito.jpg" class="cardimg" alt="Livro Match perfeito">
+              <div class="card-body">
+                <h5 class="card-title">Match perfeito</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/entreLinhasEstrelas.jpg" class="cardimg" alt="Livro Entre linhas estrelas e segredos">
+              <div class="card-body">
+                <h5 class="card-title">Entre linhas estrelas e segredos</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/asCoisasQueVocê.jpg" class="cardimg" alt="Livro As coisas que você só vê quando desacelera">
+              <div class="card-body">
+                <h5 class="card-title">As coisas que você só vê quando desacelera</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/umasombradopassado.jpg" class="cardimg" alt="Livro uma sombra do passado">
+              <div class="card-body">
+                <h5 class="card-title">Uma sombra do passado</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            
+        </div>
+        <br>
+        <div>
+            <h3>Em alta:</h3>
+            <div class="row row-cols-1 row-cols-md-5 g-5">
+              <div class="col">
+                <div class="card">
+                  <img src="img/AmorESorte.jpg" class="cardimg" alt="Livro Amor e Gelato">
+                  <div class="card-body">
+                    <h5 class="card-title">Amor e Sorte</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/Spiderman.jpg" class="cardimg" alt="HQs do Homem Aranha">
+                  <div class="card-body">
+                    <h5 class="card-title">Homem aranha</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/aCulpaeDasEstrelas.jpg" class="cardimg" alt="Livro A culpa é das estrelas">
+                  <div class="card-body">
+                    <h5 class="card-title">A culpa é das estrelas</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/AHipoteseDoAmor.jpg" class="cardimg" alt="Livro a hipótese do amor">
+                  <div class="card-body">
+                    <h5 class="card-title">A Hipótese do Amor</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/PaiRicoPaiPobre.png" class="cardimg" alt="Livro Pai Rico Pai Pobre">
+                  <div class="card-body">
+                    <h5 class="card-title">Pai Rico Pai Pobre</h5>                   
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Serviços</h3>
+                      <ul>
+                          <li><a href="#">Politica de vendas,Trocas e Privacidade</a></li>
+                          <li><a href="#">Termos e condições de compra</a></li>
+                          <li><a href="#">Fale conosco</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Sobre</h3>
+                      <ul>
+                          <li><a href="#">Bookflix plus</a></li>
+                          <li><a href="#">Trabalhe conosco</a></li>
+                          <li><a href="#">Relações com investidores</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Bookflix</h3>
+                      <p>Bem-vindo ao Bookflix, o seu destino online para explorar e descobrir o fascinante universo dos livros! No Bookflix, acreditamos que cada página conta uma história e que cada livro é uma porta para um mundo novo. Navegue por nossa vasta coleção de títulos cuidadosamente selecionados, abrangendo gêneros que vão desde romance e ficção científica até biografias inspiradoras.</p>
+                  </div>
+                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+              </div>
+              <p class="copyright">Bookflix © 2023 - Todos os direitos reservados.</p>
+          </div>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
