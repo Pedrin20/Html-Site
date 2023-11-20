@@ -12,7 +12,7 @@
 <body class="body2">
 
     <header class="header">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg bg-success ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="BookflixminiSL"src="img/Bookflix.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,81 +21,190 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="home.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Novos & Populares</a>
+                    <a class="nav-link text-white" href="#">Novos & Populares</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                    <img src="img/profileIcon.png" alt="">
+                      <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catergorias
+                      </button>
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-white" href="#">Livros</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="#">Administração e Negócios</a></li>
+                      <li><a class="dropdown-item text-white" href="#">HQ's e Mangás</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Medicina</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Direito</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Ciências Exatas/Engenharia e tecnologia</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="index.html">Ver mais...</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Procure um livro" aria-label="Search">
                   <button class="btn btn-outline-light" type="submit">Procurar</button>
                 </form>
+                <div>
+                <ul class="navbar-nav  mb-5 mb-lg-0 ms-2">
+                  <li class="nav-item">
+                    <div class="btn-group dropstart">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/profileIcon.png" alt="">
+                        </a>
+                      <ul class="dropdown-menu bg-success ">
+                        <li><a class="dropdown-item text-white" href="#">Configurações</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Menu</a></li>
+                        <li><hr class="dropdown-divider text-white"></li>
+                        <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </div>
+                <i class="bi bi-basket-fill"></i>
               </div>    
             </div>
           </nav>
     </header>
+    
     
     <div class="navsub">
         <header class="headersub">
                     <a href="#">Inicio</a>
         </header>
     </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/tema1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/tema2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/tema3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <br>
     <div class="container">
         <h3>
             Mais vendidos
         </h3>
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/nada.jpg" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nada pode me ferir</h5>
+                <a href="livro.html" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/revolucao.png" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A revolução dos bichos</h5>
+                <a href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/sapies.jpg" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sapiens Uma breve história da humanidade</h5>
+                <a href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/cinco_aneis.jpg" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">O LIVRO DOS CINCO ANEIS</h5>
+                <a href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/Batman_1.jpg" class="cardimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Batman Comics</h5>
+                <a href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <img src="img/nada.jpg" class="shadow-lg p-3 mb-5 bg-white rounded" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="img/revolucao.png" class="shadow-lg p-3 mb-5 bg-white rounded" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="img/imperfeitos.png" class="shadow-lg p-3 mb-5 bg-white rounded" alt="...">
-            </div>
-            <div class="col-md-3">
-                <img src="img/sapies.jpg" class="shadow-lg p-3 mb-5 bg-white rounded" alt="...">
-            </div>
+            
         </div>
         <br>
         <div>
             <h3>I Love HQ's</h3>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="img/nada.jpg" class="img-fluid" alt="...">
+            <div class="row row-cols-1 row-cols-md-5 g-5">
+              <div class="col">
+                <div class="card">
+                  <img src="img/Batman_1.jpg" class="cardimg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Batman Comics</h5>
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                  </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/revolucao.png" class="img-fluid" alt="...">
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/Spiderman.jpg" class="cardimg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Spiderman</h5>
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                  </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/imperfeitos.png" class="img-fluid" alt="...">
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/Superman.jpg" class="cardimg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Superman</h5>
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                  </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/sapies.jpg" class="img-fluid" alt="...">
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/Flash_1.jpg" class="cardimg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Flashpoint</h5>
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                  </div>
                 </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/Batman_1.jpg" class="cardimg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Batman Comics</h5>
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <br>
-        </div>
     </div>
 
 </body>

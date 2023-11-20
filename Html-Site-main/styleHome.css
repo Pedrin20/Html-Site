@@ -7,9 +7,25 @@
     font-family: "Poppins", sans-serif;
    /* COLOCA A FONTE NO SITE INTEIRO ALEM DE INCLUIR O PADDING E O BORDER NO TAMANHO DAS CAIXAS */
 }
-.col-md-3 img{
+
+
+.col-md-5 {
+    margin-left: 300px;
+}
+
+.col-md-2 {
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.navsub {
+    display: block;
+    align-items: start;
+}
+
+.cardimg {
     height: 300px;
-    width: 200px;
+    
 }
 
 .body2 {
@@ -27,8 +43,6 @@
 }
 
 
-
-
 .bookflix {
     width: 100px;
     height: 30px;
@@ -36,6 +50,10 @@
 
 .header {
     background-color: #072612;
+}
+
+.bg-success{
+    background-color: #045929;
 }
 
 .headersub {
@@ -69,4 +87,21 @@
 .BookflixminiSL {
     width: 80px;
     height: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--green-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue-alt-color);
+}
+
+.nav-link active {
+    color: yel;
 }
