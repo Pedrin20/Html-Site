@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +7,69 @@
         <link rel="stylesheet" href="styleHome.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body class="body2">
     
-        <header class="header">
-            <nav class="navbar navbar-expand-lg bg-success">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img class="BookflixminiSL"src="img/Bookflix.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="home.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Novos & Populares</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg bg-success ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="BookflixminiSL"src="img/Bookflix.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="home.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Novos & Populares</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catergorias
+                      </button>
+                    </a>
+                    <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-white" href="#">Livros</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="#">Administração e Negócios</a></li>
+                      <li><a class="dropdown-item text-white" href="#">HQ's e Mangás</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Medicina</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Direito</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Ciências Exatas/Engenharia e tecnologia</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="index.html">Ver mais...</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Procure um livro" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Procurar</button>
+                </form>
+                <div>
+                <ul class="navbar-nav  mb-5 mb-lg-0 ms-2">
+                  <li class="nav-item">
+                    <div class="btn-group dropstart">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="img/profileIcon.png" alt="">
                         </a>
-                        <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider text-white"></li>
-                          <li><a class="dropdown-item text-white" href="index.html">Sair</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Procure um livro" aria-label="Search">
-                      <button class="btn btn-outline-light" type="submit">Procurar</button>
-                    </form>
-                    <div>
-                    <ul class="navbar-nav  mb-5 mb-lg-0 ms-2">
-                      <li class="nav-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
-                          <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-                        </svg>
-                      </li>
+                      <ul class="dropdown-menu bg-success ">
+                        <li><a class="dropdown-item text-white" href="#">Configurações</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Menu</a></li>
+                        <li><hr class="dropdown-divider text-white"></li>
+                        <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
+                      </ul>
                     </div>
-                    <i class="bi bi-basket-fill"></i>
-                  </div>    
+                  </li>
                 </div>
-              </nav>
-        </header>
+                <i class="bi bi-basket-fill"></i>
+              </div>    
+            </div>
+          </nav>
+    </header>
         
         
         <div class="navsub">
@@ -66,13 +81,13 @@
 </head>
 <body>
     <br><br>
-    <div class="card mb-0" style="max-width: none;">
+    <div class="card " style="max-width: none;">
         <div class="row g-0">
           <div class="col-md-2">
-            <img src="img/nada.jpg" class="img-fluid rounded-start"  alt="...">
+            <img src="img/nada.jpg" class="img-fluid rounded-start shadow-sm p-3 mb-5 bg-body-tertiary rounded"  alt="...">
           </div>
           <div class="col-md-5">
-            <div class="card" style="width: 40rem; height: 20rem; margin-top: 10%;">
+            <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 40rem; height: 20rem; margin-top: 10%;">
                 <div class="card-body">
                   <h5 class="card-title">Nada pode me ferir</h5>
                   <div class="align">
@@ -85,7 +100,7 @@
                 <p>A história de superação do único homem a completar o treinamento das forças de elite e se tornar Navy SEAL, Army Ranger e TACP.</p>
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Sobre
+                      Descrição
                     </button>
                     <ul class="dropdown-menu">
                       <p> “Tudo na vida é um jogo mental! Sempre que somos tragados pelos dramas da vida, tanto os grandes quanto os pequenos, esquecemos que,
@@ -102,7 +117,7 @@
                         Seu relato inspirador ilumina o caminho que você também pode trilhar para superar a dor, demolir o medo e alcançar níveis inéditos de desempenho e excelência no esporte e na vida.</p>
                     </ul>
                   </div>
-                  <br><br>
+                  
                   <a href="#" class="card-link">Card link</a>
                   <a href="#" class="card-link">Another link</a>
                 </div>
@@ -110,5 +125,37 @@
           </div>
         </div>
       </div>
+      <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Serviços</h3>
+                        <ul>
+                            <li><a href="#">Politica de vendas,Trocas e Privacidade</a></li>
+                            <li><a href="#">Termos e condições de compra</a></li>
+                            <li><a href="#">Fale conosco</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Bookflix plus</a></li>
+                            <li><a href="#">Trabalhe conosco</a></li>
+                            <li><a href="#">Relações com investidores</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Bookflix</h3>
+                        <p>Bem-vindo ao Bookflix, o seu destino online para explorar e descobrir o fascinante universo dos livros! No Bookflix, acreditamos que cada página conta uma história e que cada livro é uma porta para um mundo novo. Navegue por nossa vasta coleção de títulos cuidadosamente selecionados, abrangendo gêneros que vão desde romance e ficção científica até biografias inspiradoras.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Bookflix © 2023 - Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
