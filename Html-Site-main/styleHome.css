@@ -219,7 +219,6 @@
   transition: 0.3s;
 }
 
- Add shadows on hover /
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
@@ -260,4 +259,29 @@
   .columns {
     width: 100%;
   }
+}
+
+.divLivro {
+  height: 100vh;
+  width: 100%;
+}
+
+.cardcent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.precoLivro {
+  text-decoration: none;
+  font-weight: normal;
+  font-weight: 500;
+  color: #045929;
+}
+.dropdown-menu p {
+  padding: 10px;
+  width: 900px;
+}
+
+img {
+  cursor: pointer;
 }

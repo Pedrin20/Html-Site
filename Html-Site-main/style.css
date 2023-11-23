@@ -137,3 +137,13 @@ a {
 
 
 /* FIM DO CSS DA HOME */
+
+img {
+    cursor: pointer;
+}
+.center {
+    align-items: center;
+}
+.underline {
+    text-decoration: underline;
+}
